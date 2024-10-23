@@ -32,11 +32,11 @@ git push -u origin main
    
 
 ```
-![Local Image](./images/10.jpg)
-![Local Image](./images/12.jpg) # deze kan je bij SSH toevoegen op account github
-![Local Image](./images/11.jpg)
-![Local Image](./images/13.jpg)# navigeer naar de juiste dir 
-![Local Image](./images/14.jpg)#nieuwe repo 
+![Local Image](./Images/10.jpg)
+![Local Image](./Images/12.jpg) # deze kan je bij SSH toevoegen op account github
+![Local Image](./Images/11.jpg)
+![Local Image](./Images/13.jpg)# navigeer naar de juiste dir 
+![Local Image](./Images/14.jpg)#nieuwe repo 
 
 ## 1.2  Build and verify the sample application
 
@@ -48,11 +48,11 @@ sudo docker stop <containerID>
 sudo docker rm <containerID>
 
 ```
-![Local Image](./images/15.jpg) 
-![Local Image](./images/16.jpg) 
-![Local Image](./images/17.jpg) 
-![Local Image](./images/18.jpg) 
-![Local Image](./images/19.jpg) 
+![Local Image](./Images/15.jpg) 
+![Local Image](./Images/16.jpg) 
+![Local Image](./Images/17.jpg) 
+![Local Image](./Images/18.jpg) 
+![Local Image](./Images/19.jpg) 
 
 ## 1.3 Download and run the Jenkins docker image
 
@@ -66,15 +66,15 @@ docker run -p 8080:8080 -u root \
   touch passwd_container.txt   # password hier in  opgeslagen en gepushed 
   
   ```
-![Local Image](./images/20.jpg) 
+![Local Image](./Images/20.jpg) 
 ## 1.4 Configure Jenkins
-![Local Image](./images/1.jpg) 
+![Local Image](./Images/1.jpg) 
 ## 1.5 Use Jenkins to build your application
-![Local Image](./images/2.jpg) 
+![Local Image](./Images/2.jpg) 
 ## 1.6 Add a job to test the application
-![Local Image](./images/4.jpg) 
+![Local Image](./Images/4.jpg) 
 ## 1.7 Create a build pipeline
-![Local Image](./images/7.jpg) 
+![Local Image](./Images/7.jpg) 
 ## 1.7 Use a Jenkinsfile
  ```
 pipeline {
@@ -110,8 +110,8 @@ pipeline {
  ```
 
 ## 1.9 Make a change in the application
-![Local Image](./images/5.jpg) 
-![Local Image](./images/6.jpg) 
+![Local Image](./Images/5.jpg) 
+![Local Image](./Images/6.jpg) 
 
 ## Resources
 
